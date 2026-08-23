@@ -31,14 +31,14 @@
 | `angelina/` | 予愿安洁莉娜 | 2026 夏活「直到大地变成一颗酸橙」，信使少女 |
 | `angelina-base/` | 安洁莉娜（本体） | 信使少女时期的原型形态 |
 | `amiya/` | 阿米娅 | 罗德岛公开领袖（术师主轴） |
-| `kaltsit-sihengtuo/` | 凯尔希·思衡托 | 石棺重生后的凡人之躯 |
+| `kaltsit/` | 凯尔希（Kal'tsit） | 石棺重生后的凡人之躯 |
 | `texas-base/` | 德克萨斯（本体） | 谜团时期的寡言台柱 |
 | `texas-omertosa/` | 缄默德克萨斯 | 叙拉古往事之后 |
 | `exusiai-base/` | 能天使（本体） | No party No life |
-| `exusiai-new/` | 新约能天使 | 苹果派物流老板 |
+| `exusiai-new-covenant/` | 新约能天使（Exusiai the New Covenant） | 苹果派物流老板 |
 | `lappland-base/` | 拉普兰德（本体） | 落单的狼 |
 | `lappland-decadenza/` | 荒芜拉普兰德 | 权力是狼群 |
-| `lin-yuxia/` | 林雨霞 | 鼠王的女儿、影子守护者 · 为林雨霞厨的友人定制 |
+| `lin/` | 林雨霞（Lin） | 鼠王的女儿、影子守护者 · 为林雨霞厨的友人定制 |
 | `mostima/` | 莫斯提马 | 堕天的秘密 · 为莫斯提马厨的友人定制 |
 | `wisadel/` | 维什戴尔 | 这里是巴别塔 |
 | `kroos-base/` | 克洛丝（本体） | 行动预备组A1的瞌睡狙击手 · 为克洛丝厨的友人定制 |
