@@ -28,10 +28,10 @@
 
 | 目录 | 干员 | 备注 |
 |---|---|---|
-| `angelina/` | 予愿安洁莉娜 | 2026 夏活「直到大地变成一颗酸橙」，信使少女 |
+| `angelina-mellow-wish/` | 予愿安洁莉娜（Angelina the Mellow Wish） | 2026 夏活「直到大地变成一颗酸橙」，信使少女 |
 | `angelina-base/` | 安洁莉娜（本体） | 信使少女时期的原型形态 |
 | `amiya/` | 阿米娅 | 罗德岛公开领袖（术师主轴） |
-| `kaltsit/` | 凯尔希（Kal'tsit） | 石棺重生后的凡人之躯 |
+| `kaltsit-esperanta/` | 凯尔希·思衡托（Kal'tsit·Esperanta） | 石棺重生后的凡人之躯（异格） |
 | `texas-base/` | 德克萨斯（本体） | 谜团时期的寡言台柱 |
 | `texas-omertosa/` | 缄默德克萨斯 | 叙拉古往事之后 |
 | `exusiai-base/` | 能天使（本体） | No party No life |
