@@ -14,6 +14,7 @@
 - [干员列表](#干员列表)
 - [试听](#试听)
 - [使用方式](#使用方式)
+- [予愿安洁莉娜桌宠](#予愿安洁莉娜桌宠)
 - [效果与限制（实测）](#效果与限制实测)
 - [Ave Mujica 联动声明](#ave-mujica-联动声明)
 - [设计原则](#设计原则)
@@ -117,9 +118,23 @@
 | 任意 LLM 应用 | 全文粘贴为系统提示词 |
 | 角色扮演前端 | SillyTavern（酒馆）、Chatbox、Poe 等——将 bundle 作为角色卡的核心设定导入 |
 | 网页端对话 | 把 bundle 作为上下文注入也可用，但效果打折扣（见下） |
-| 予愿安洁莉娜桌宠 | 三端开源，内置本库 Skill 运行时加载： [Windows](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan) · [鸿蒙](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT) · [安卓](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android) |
 
 **推荐模型**：能力强、指令遵循好的模型效果最佳（如 Claude 4.x、Gemini 2.x、DeepSeek V3 及以上）。
+
+## 予愿安洁莉娜桌宠
+
+ArkSkills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本库的干员，她的 Skill 正是为这个三端开源桌宠项目而生：
+
+| 平台 | 仓库 |
+|---|---|
+| Windows | [Arknights-Angelina-Pet-YuYuan](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan) |
+| 鸿蒙 NEXT | [Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT) |
+| 安卓 | [JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android) |
+
+- 桌宠内置 `angelina-mellow-wish/` 的 Skill 作为角色系统提示词（运行时本地加载），三端同一套角色设定；
+- 桌宠项目反哺了本库的蒸馏流水线——先有予愿，再有其余 23 位干员。
+
+> 需要说明的是：本库的 Skill 包**完全通用**，不绑定桌宠——虽然诞生于桌宠项目，但任何支持系统提示词或角色卡的 LLM 应用与前端都能直接使用。
 
 ### 效果与限制（实测）
 
