@@ -6,9 +6,44 @@
 ![badge](https://img.shields.io/badge/许可-CC_BY--NC--SA_4.0-9C27B0)
 
 > 把罗德岛的干员们，带进你的 AI。
+> Bring Rhodes Island's operators into your AI. — *English overview below.*
+
+## English · Overview
+
+> This section is a condensed overview for international visitors. Note: the Skill bundles themselves are **Chinese-language** roleplay prompts.
+
+ArkSkills is a library of structured **character roleplay Skill packs** for *Arknights* operators. Each operator ships as two ready-to-use markdown system prompts (`bundle_full.md` / `bundle_compact.md`), distilled **only from official in-game texts** — operator files, voice lines, operator records, and story events (mirrored by prts.wiki). No fanon.
+
+Each full pack is organized into 8 modules: **Soul** (motivations & values) · **Limits** (3-tier fact system: safe / caution / forbidden) · **Behavior guide** (7 behavior patterns + situational reactions) · **Speech patterns** · **Relationship dynamics** · **Key life events** · **World setting**.
+
+**Why it works** — the fact-tier system and forbidden lists are the anti-OOC backbone: the model is told exactly which facts are safe to state, which are uncertain, and which are red lines. Prompt-injection refusal and a 12+ tone policy are built in.
+
+**Usage**:
+
+- Best as an **agent system prompt** (Claude 4.x, Gemini 2.x, DeepSeek V3+ recommended)
+- Works with SillyTavern, Chatbox, Poe, and any LLM app that accepts system prompts
+- `bundle_full.md` ≈ 3.2k–5.8k tokens — works on small models like Qwen3.5-4B; `bundle_compact.md` ≈ 460–700 tokens for tight-context scenarios
+- Pasting bundles into free web chats (Kimi, Doubao, Qwen, DeepSeek web) as context injection works, but persona drift typically appears after ~10 turns — prefer system-prompt mode
+
+**24 operators** — folder names are official EN operator names:
+
+| Group | Operators |
+|---|---|
+| Base forms | Amiya, Texas, Exusiai, Lappland, Angelina, Kroos |
+| Alters | Angelina the Mellow Wish, Kal'tsit·Esperanta, Texas the Omertosa, Exusiai the New Covenant, Lappland the Decadenza, Wiš'adel |
+| Single form / story characters | Mostima, Lin, Viviana, Archetto, Closure, Mon3tr, Theresa |
+| Ave Mujica collab | Togawa Sakiko, Wakaba Mutsumi, Misumi Uika, Yahata Umiri, Yūtenji Nyamu |
+
+> [!IMPORTANT]
+> The five Ave Mujica collab characters are distilled **only from Arknights in-game texts** (operator files, voice lines, and the "Somniloquium Serenum" side story). Nothing is borrowed or extrapolated from the original *BanG Dream!* anime or franchise; official ambiguities stay ambiguous. These Skills are unrelated to the original work.
+
+**License**: dual — Skill text arrangement under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans); character assets & official texts © Hypergryph. Non-commercial, educational use (see [LICENSE](LICENSE)).
+
+**Responsible use**: AI roleplay is for entertainment and learning — it cannot replace real relationships. Use in moderation.
 
 ## 目录
 
+- [English · Overview](#english--overview)
 - [这是什么](#这是什么)
 - [两套规格](#两套规格)
 - [干员列表](#干员列表)
