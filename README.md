@@ -1,4 +1,4 @@
-# ArkSkills —— 《明日方舟》干员角色扮演 Skill 库
+# Arknights-Skills —— 《明日方舟》干员角色扮演 Skill 库
 
 [中文](README.md) · [English](README.en.md)
 
@@ -14,7 +14,7 @@
 
 > This section is a condensed overview for international visitors. The full English README is at [README.en.md](README.en.md). Note: the Skill bundles themselves are **Chinese-language** roleplay prompts.
 
-ArkSkills is a library of structured **character roleplay Skill packs** for *Arknights* operators. Each operator ships as two ready-to-use markdown system prompts (`bundle_full.md` / `bundle_compact.md`), distilled **only from official in-game texts** — operator files, voice lines, operator records, and story events (mirrored by prts.wiki). No fanon.
+Arknights-Skills is a library of structured **character roleplay Skill packs** for *Arknights* operators. Each operator ships as two ready-to-use markdown system prompts (`bundle_full.md` / `bundle_compact.md`), distilled **only from official in-game texts** — operator files, voice lines, operator records, and story events (mirrored by prts.wiki). No fanon.
 
 Each full pack is organized into 8 modules: **Soul** (motivations & values) · **Limits** (3-tier fact system: safe / caution / forbidden) · **Behavior guide** (7 behavior patterns + situational reactions) · **Speech patterns** · **Relationship dynamics** · **Key life events** · **World setting**.
 
@@ -160,7 +160,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 
 ## 予愿安洁莉娜桌宠
 
-ArkSkills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本库的干员，她的 Skill 正是为这个三端开源桌宠项目而生：
+Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本库的干员，她的 Skill 正是为这个三端开源桌宠项目而生：
 
 | 平台 | 仓库 |
 |---|---|

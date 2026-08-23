@@ -1,4 +1,4 @@
-# ArkSkills — Arknights Operator Roleplay Skill Library
+# Arknights-Skills — Arknights Operator Roleplay Skill Library
 
 ![badge](https://img.shields.io/badge/Operators-24-2196F3)
 ![badge](https://img.shields.io/badge/Format-Markdown-4CAF50)
@@ -128,7 +128,7 @@ Hear her speak (Angelina the Mellow Wish, official lines):
 
 ## YuYuan Angelina Desktop Pet
 
-Where ArkSkills began — Angelina the Mellow Wish was the first operator distilled into this library, and her Skill was born for this open-source desktop pet project:
+Where Arknights-Skills began — Angelina the Mellow Wish was the first operator distilled into this library, and her Skill was born for this open-source desktop pet project:
 
 | Platform | Repository |
 |---|---|
