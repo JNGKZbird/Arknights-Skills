@@ -2,7 +2,7 @@
 
 [中文](README.md) · [English](README.en.md)
 
-![badge](https://img.shields.io/badge/干员-24位-2196F3)
+![badge](https://img.shields.io/badge/干员-20+位-2196F3)
 ![badge](https://img.shields.io/badge/规格-长短双版-4CAF50)
 ![badge](https://img.shields.io/badge/素材-prts.wiki官方文本-FF9800)
 ![badge](https://img.shields.io/badge/许可-CC_BY--NC--SA_4.0-9C27B0)
@@ -27,7 +27,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 - `bundle_full.md` ≈ 3.2k–5.8k tokens — works on small models like Qwen3.5-4B; `bundle_compact.md` ≈ 460–700 tokens for tight-context scenarios
 - Pasting bundles into free web chats (Kimi, Doubao, Qwen, DeepSeek web) as context injection works, but persona drift typically appears after ~10 turns — prefer system-prompt mode
 
-**24 operators** — folder names are official EN operator names:
+**20+ operators (and growing)** — folder names are official EN operator names:
 
 | Group | Operators |
 |---|---|
@@ -87,7 +87,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 
 ## 干员列表
 
-24 位干员，目录名均为**官方英文名**。
+20+ 位干员（持续扩充中），目录名均为**官方英文名**。
 
 ### 本体干员
 
@@ -169,7 +169,7 @@ Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本
 | 安卓 | [JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android) |
 
 - 桌宠内置 `angelina-mellow-wish/` 的 Skill 作为角色系统提示词（运行时本地加载），三端同一套角色设定；
-- 桌宠项目反哺了本库的蒸馏流水线——先有予愿，再有其余 23 位干员。
+- 桌宠项目反哺了本库的蒸馏流水线——先有予愿，再陆续迎来其余干员。
 
 > 需要说明的是：本库的 Skill 包**完全通用**，不绑定桌宠——虽然诞生于桌宠项目，但任何支持系统提示词或角色卡的 LLM 应用与前端都能直接使用。
 

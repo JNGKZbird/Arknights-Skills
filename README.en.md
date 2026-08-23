@@ -1,6 +1,6 @@
 # Arknights-Skills — Arknights Operator Roleplay Skill Library
 
-![badge](https://img.shields.io/badge/Operators-24-2196F3)
+![badge](https://img.shields.io/badge/Operators-20+-2196F3)
 ![badge](https://img.shields.io/badge/Format-Markdown-4CAF50)
 ![badge](https://img.shields.io/badge/Source-prts.wiki_official_texts-FF9800)
 ![badge](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-9C27B0)
@@ -52,7 +52,7 @@ Each operator ships two bundles:
 
 ## Operator List
 
-24 operators. Folder names are **official EN operator names**.
+20+ operators (and growing). Folder names are **official EN operator names**.
 
 ### Base Forms
 
@@ -137,7 +137,7 @@ Where Arknights-Skills began — Angelina the Mellow Wish was the first operator
 | Android | [JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android) |
 
 - The pet loads `angelina-mellow-wish/` as its character system prompt at runtime — one persona across all three platforms;
-- The pet project fed back into this library's distillation pipeline: first YuYuan, then the other 23 operators.
+- The pet project fed back into this library's distillation pipeline: first YuYuan, then the rest.
 
 > To be clear: the Skill packs are **fully general-purpose** — born from the pet project, but any LLM app or frontend that accepts system prompts or character cards can use them directly.
 
