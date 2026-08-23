@@ -1,6 +1,6 @@
 # Arknights-Skills — Arknights Operator Roleplay Skill Library
 
-![badge](https://img.shields.io/badge/Operators-20+-2196F3)
+![badge](https://img.shields.io/badge/Operators-growing-2196F3)
 ![badge](https://img.shields.io/badge/Format-Markdown-4CAF50)
 ![badge](https://img.shields.io/badge/Source-prts.wiki_official_texts-FF9800)
 ![badge](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-9C27B0)
@@ -52,7 +52,7 @@ Each operator ships two bundles:
 
 ## Operator List
 
-20+ operators (and growing). Folder names are **official EN operator names**.
+Operators (and growing). Folder names are **official EN operator names**.
 
 ### Base Forms
 
@@ -88,17 +88,9 @@ Each operator ships two bundles:
 | `mon3tr/` | Mon3tr | Precursor-civilization mechanical lifeform AMa-10 · Kal'tsit's companion |
 | `theresa/` | Theresa | Founder of Babel, the Sarkaz King of Fiends |
 
-### Ave Mujica Collab
+### Ave Mujica Collab (Separate Repository)
 
-| Folder | Operator | Notes |
-|---|---|---|
-| `togawa-sakiko/` | Togawa Sakiko | Keyboardist (Oblivionis) |
-| `wakaba-mutsumi/` | Wakaba Mutsumi | Guitarist (Mortis) |
-| `misumi-uika/` | Misumi Uika | Vocalist & guitarist (Doloris) |
-| `yahata-umiri/` | Yahata Umiri | Bassist (Timoris) |
-| `yutenji-nyamu/` | Yūtenji Nyamu | Drummer (Amoris) |
-
-> The five collab Skills use Arknights in-game texts only — see the [statement below](#ave-mujica-collab-statement).
+The five collab operators live in their own repository — **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)** (trilingual README: 中文 / English / 日本語) — distilled only from Arknights in-game texts; full statement there.
 
 ## Voice Samples
 
@@ -149,12 +141,7 @@ Where Arknights-Skills began — Angelina the Mellow Wish was the first operator
 
 ## Ave Mujica Collab Statement
 
-> [!IMPORTANT]
-> The Skills for Togawa Sakiko, Wakaba Mutsumi, Misumi Uika, Yahata Umiri, and Yūtenji Nyamu are distilled **only from Arknights in-game texts** — operator files, voice lines, and the "Somniloquium Serenum" side story.
->
-> - Nothing is borrowed or extrapolated from the original *BanG Dream! Ave Mujica* anime or the BanG Dream! franchise;
-> - What the original leaves officially ambiguous (relationship directions, personal history details) stays ambiguous in these Skills;
-> - These Skills are unrelated to the original work and constitute no derivative of it.
+The five collab operators' Skills live in **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)** — distilled **only from Arknights in-game texts**, unrelated to the original *BanG Dream!* work. Full statement in that repository's README (中文 / English / 日本語).
 
 ## Design Principles
 

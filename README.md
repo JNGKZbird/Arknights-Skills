@@ -2,7 +2,7 @@
 
 [中文](README.md) · [English](README.en.md)
 
-![badge](https://img.shields.io/badge/干员-20+位-2196F3)
+![badge](https://img.shields.io/badge/干员-持续扩充中-2196F3)
 ![badge](https://img.shields.io/badge/规格-长短双版-4CAF50)
 ![badge](https://img.shields.io/badge/素材-prts.wiki官方文本-FF9800)
 ![badge](https://img.shields.io/badge/许可-CC_BY--NC--SA_4.0-9C27B0)
@@ -27,17 +27,16 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 - `bundle_full.md` ≈ 3.2k–5.8k tokens — works on small models like Qwen3.5-4B; `bundle_compact.md` ≈ 460–700 tokens for tight-context scenarios
 - Pasting bundles into free web chats (Kimi, Doubao, Qwen, DeepSeek web) as context injection works, but persona drift typically appears after ~10 turns — prefer system-prompt mode
 
-**20+ operators (and growing)** — folder names are official EN operator names:
+**Operators (and growing)** — folder names are official EN operator names:
 
 | Group | Operators |
 |---|---|
 | Base forms | Amiya, Texas, Exusiai, Lappland, Angelina, Kroos |
 | Alters | Angelina the Mellow Wish, Kal'tsit·Esperanta, Texas the Omertosa, Exusiai the New Covenant, Lappland the Decadenza, Wiš'adel |
 | Single form / story characters | Mostima, Lin, Viviana, Archetto, Closure, Mon3tr, Theresa |
-| Ave Mujica collab | Togawa Sakiko, Wakaba Mutsumi, Misumi Uika, Yahata Umiri, Yūtenji Nyamu |
 
 > [!IMPORTANT]
-> The five Ave Mujica collab characters are distilled **only from Arknights in-game texts** (operator files, voice lines, and the "Somniloquium Serenum" side story). Nothing is borrowed or extrapolated from the original *BanG Dream!* anime or franchise; official ambiguities stay ambiguous. These Skills are unrelated to the original work.
+> The five Ave Mujica collab operators live in their own repository — [Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica) — distilled **only from Arknights in-game texts**, unrelated to the original *BanG Dream!* work.
 
 **License**: dual — Skill text arrangement under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans); character assets & official texts © Hypergryph. Non-commercial, educational use (see [LICENSE](LICENSE)).
 
@@ -87,7 +86,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 
 ## 干员列表
 
-20+ 位干员（持续扩充中），目录名均为**官方英文名**。
+干员持续扩充中，目录名均为**官方英文名**。
 
 ### 本体干员
 
@@ -123,17 +122,9 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | `mon3tr/` | Mon3tr | 前文明机械生命 AMa-10 · 凯尔希的同行者 |
 | `theresa/` | 特蕾西娅（Theresa） | 巴别塔的创立者、萨卡兹的魔王 |
 
-### Ave Mujica 联动
+### Ave Mujica 联动（独立分库）
 
-| 目录 | 干员 | 备注 |
-|---|---|---|
-| `togawa-sakiko/` | 丰川祥子（Togawa Sakiko） | 键盘手（Oblivionis） |
-| `wakaba-mutsumi/` | 若叶睦（Wakaba Mutsumi） | 吉他手（Mortis） |
-| `misumi-uika/` | 三角初华（Misumi Uika） | 主唱兼吉他手（Doloris） |
-| `yahata-umiri/` | 八幡海铃（Yahata Umiri） | 贝斯手（Timoris） |
-| `yutenji-nyamu/` | 祐天寺若麦（Yūtenji Nyamu） | 鼓手（Amoris） |
-
-> 联动五人的 Skill 仅基于明日方舟游戏内文本——详见[下方声明](#ave-mujica-联动声明)。
+联动五人组的 Skill 位于独立仓库 **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)**（三语 README：中文 / English / 日本語）——仅基于明日方舟游戏内文本，完整声明见分库。
 
 ## 试听
 
@@ -181,12 +172,7 @@ Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本
 
 ## Ave Mujica 联动声明
 
-> [!IMPORTANT]
-> 丰川祥子、若叶睦、三角初华、八幡海铃、祐天寺若麦五位干员的 Skill，**仅基于《明日方舟》游戏内文本**蒸馏——包括干员档案、语音台词与联动 SideStory「无忧梦呓」（Somniloquium Serenum）的登场剧情。
->
-> - **不引用、不补全**原作动画《BanG Dream! Ave Mujica》及 BanG Dream! 本家企划的任何设定与剧情；
-> - 原作中官方留白的内容（如角色关系走向、个人经历细节），在 Skill 中同样**保持留白**；
-> - 这些 Skill 与原作动画无关，不构成对原作的演绎或续写。
+联动五人组的 Skill 位于独立仓库 **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)**——**仅基于《明日方舟》游戏内文本**蒸馏，不引用、不补全原作动画《BanG Dream! Ave Mujica》与本家设定，与原作无关。完整声明见分库 README（中文 / English / 日本語）。
 
 ## 设计原则
 
