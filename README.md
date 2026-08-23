@@ -1,5 +1,7 @@
 # ArkSkills —— 《明日方舟》干员角色扮演 Skill 库
 
+[中文](README.md) · [English](README.en.md)
+
 ![badge](https://img.shields.io/badge/干员-24位-2196F3)
 ![badge](https://img.shields.io/badge/规格-长短双版-4CAF50)
 ![badge](https://img.shields.io/badge/素材-prts.wiki官方文本-FF9800)
@@ -10,7 +12,7 @@
 
 ## English · Overview
 
-> This section is a condensed overview for international visitors. Note: the Skill bundles themselves are **Chinese-language** roleplay prompts.
+> This section is a condensed overview for international visitors. The full English README is at [README.en.md](README.en.md). Note: the Skill bundles themselves are **Chinese-language** roleplay prompts.
 
 ArkSkills is a library of structured **character roleplay Skill packs** for *Arknights* operators. Each operator ships as two ready-to-use markdown system prompts (`bundle_full.md` / `bundle_compact.md`), distilled **only from official in-game texts** — operator files, voice lines, operator records, and story events (mirrored by prts.wiki). No fanon.
 
