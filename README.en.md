@@ -95,7 +95,7 @@ The five collab operators live in their own repository — **[Arknights-Skills-A
 
 ## Expansion Packs (Preview)
 
-Alongside the single-operator packs, this library carries two kinds of **experimental expansion packs** (both in **preview** status — format and balance are still being polished; feedback welcome) — **Dual Roleplay Packs** and **Play Packs**:
+Alongside the single-operator packs, this library carries two kinds of **experimental expansion packs** (both in **preview** status — format and balance are still being polished; feedback welcome) — **Dual Roleplay Packs** and **Multi-Character Play Packs**:
 
 ### Dual Roleplay Packs
 
@@ -108,7 +108,7 @@ The user is no longer the Doctor — **the user plays operator A, the LLM plays 
 
 Each pack's modules: **pairing shell** (role assignment / rules / opening hook) + **LLM-side persona** distilled for the duel (no Doctor slot) + **opponent profile** (injected to the LLM) + **user-side play manual** (for the human, not injected — the user's new identity is the star).
 
-### Play Packs
+### Multi-Character Play Packs
 
 The LLM performs **multiple characters in a single reply** (alternating lines + interaction stage directions), play-script style; **the user roleplays as the Doctor** in first person — no manual needed, free to steer the plot or impose states on the characters:
 
@@ -118,7 +118,7 @@ The LLM performs **multiple characters in a single reply** (alternating lines + 
 
 Modules: **stage setting** (time anchor / same-stage "if" premise) + **one persona file per character** (distilled separately) + **doctor-side notes** (user reference).
 
-> **Preview notice**: these packs are experimental; format and content may change before formalization. Sizes: dual packs full ≈ 6.1k–7.1k tokens (includes the user-side manual, larger than single packs), compact ≈ 400–420; play pack full ≈ 7.2k, compact ≈ 400.
+> **Preview notice**: these packs are experimental; format and content may change before formalization. Sizes: dual packs full ≈ 6.1k–7.1k tokens (includes the user-side manual, larger than single packs), compact ≈ 400–420; multi-character play pack full ≈ 7.2k, compact ≈ 400.
 
 ## Voice Samples
 
