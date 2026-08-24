@@ -106,7 +106,7 @@ The user is no longer the Doctor — **the user plays operator A, the LLM plays 
 | `texas-lappland/` | Texas (Texas the Omertosa) | Lappland (Lappland the Decadenza) | Il Siracusano / Zwillingstürme im Herbst |
 | `lappland-texas/` | Lappland (Lappland the Decadenza) | Texas (Texas the Omertosa) | Il Siracusano / Zwillingstürme im Herbst |
 
-Each pack's modules: **pairing shell** (role assignment / rules / opening hook) + **LLM-side persona** distilled for the duel (no Doctor slot) + **opponent profile** (injected to the LLM) + **user-side play manual** (for the human, not injected — the user's new identity is the star).
+Each pack's modules: **pairing shell** (role assignment / time anchor / duel rules / red-line quick ref / output rules) + **opponent profile** (who she is / her relation to you / personality core / knowledge boundaries — injected to the LLM, which must never speak for her) + **opponent speech** (a sourced line arsenal) + **LLM-side persona** (distilled for this pack). **Zero pre-reading** — no user manual: the user simply speaks as their character right away.
 
 ### Multi-Character Play Packs
 
@@ -118,7 +118,7 @@ The LLM performs **multiple characters in a single reply** (alternating lines + 
 
 Modules: **stage setting** (time anchor / same-stage "if" premise) + **one persona file per character** (distilled separately) + **doctor-side notes** (user reference).
 
-> **Preview notice**: these packs are experimental; format and content may change before formalization. Sizes: dual packs full ≈ 6.1k–7.1k tokens (includes the user-side manual, larger than single packs), compact ≈ 400–420; multi-character play pack full ≈ 7.2k, compact ≈ 400.
+> **Preview notice**: these packs are experimental; format and content may change before formalization. Sizes: dual packs full ≈ 6.1k–7.1k tokens (larger than single packs — opponent profile & line arsenal included), compact ≈ 400–420; multi-character play pack full ≈ 7.2k, compact ≈ 400.
 
 ## Voice Samples
 
