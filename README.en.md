@@ -14,6 +14,7 @@
 - [What This Is](#what-this-is)
 - [Two Bundle Sizes](#two-bundle-sizes)
 - [Operator List](#operator-list)
+- [Expansion Packs (Preview)](#expansion-packs-preview)
 - [Voice Samples](#voice-samples)
 - [Usage](#usage)
 - [YuYuan Angelina Desktop Pet](#yuyuan-angelina-desktop-pet)
@@ -91,6 +92,33 @@ Operators (and growing). Folder names are **official EN operator names**.
 ### Ave Mujica Collab (Separate Repository)
 
 The five collab operators live in their own repository — **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)** (trilingual README: 中文 / English / 日本語) — distilled only from Arknights in-game texts; full statement there.
+
+## Expansion Packs (Preview)
+
+Alongside the single-operator packs, this library carries two **experimental expansion lines** (both in **preview** status — format and balance are still being polished; feedback welcome):
+
+### Dual Roleplay Packs
+
+The user is no longer the Doctor — **the user plays operator A, the LLM plays operator B**, face to face. Two **standalone Skills** currently (roles swapped; each is a complete, independent pack):
+
+| Folder | LLM plays | User plays | Era |
+|---|---|---|---|
+| `texas-lappland/` | Texas (Texas the Omertosa) | Lappland (Lappland the Decadenza) | Il Siracusano / Zwillingstürme im Herbst |
+| `lappland-texas/` | Lappland (Lappland the Decadenza) | Texas (Texas the Omertosa) | Il Siracusano / Zwillingstürme im Herbst |
+
+Each pack's modules: **pairing shell** (role assignment / rules / opening hook) + **LLM-side persona** distilled for the duel (no Doctor slot) + **opponent profile** (injected to the LLM) + **user-side play manual** (for the human, not injected — the user's new identity is the star).
+
+### Multi-Character Play Packs
+
+The LLM performs **multiple characters in a single reply** (alternating lines + interaction stage directions), play-script style; **the user roleplays as the Doctor** in first person — no manual needed, free to steer the plot or impose states on the characters:
+
+| Folder | LLM performs | User plays |
+|---|---|---|
+| `exusiai-duo-doctor/` | Exusiai (base) + Exusiai the New Covenant (alter) | The Doctor |
+
+Modules: **stage setting** (time anchor / same-stage "if" premise) + **one persona file per character** (distilled separately) + **doctor-side notes** (user reference).
+
+> **Preview notice**: these packs are experimental; format and content may change before formalization. Sizes: dual packs full ≈ 6.1k–7.1k tokens (includes the user-side manual, larger than single packs), compact ≈ 400–420; play pack full ≈ 7.2k, compact ≈ 400.
 
 ## Voice Samples
 
