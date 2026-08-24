@@ -95,7 +95,7 @@ The five collab operators live in their own repository — **[Arknights-Skills-A
 
 ## Expansion Packs (Preview)
 
-Alongside the single-operator packs, this library carries two **experimental expansion lines** (both in **preview** status — format and balance are still being polished; feedback welcome):
+Alongside the single-operator packs, this library carries two kinds of **experimental expansion packs** (both in **preview** status — format and balance are still being polished; feedback welcome) — **Dual Roleplay Packs** and **Play Packs**:
 
 ### Dual Roleplay Packs
 
@@ -108,7 +108,7 @@ The user is no longer the Doctor — **the user plays operator A, the LLM plays 
 
 Each pack's modules: **pairing shell** (role assignment / rules / opening hook) + **LLM-side persona** distilled for the duel (no Doctor slot) + **opponent profile** (injected to the LLM) + **user-side play manual** (for the human, not injected — the user's new identity is the star).
 
-### Multi-Character Play Packs
+### Play Packs
 
 The LLM performs **multiple characters in a single reply** (alternating lines + interaction stage directions), play-script style; **the user roleplays as the Doctor** in first person — no manual needed, free to steer the plot or impose states on the characters:
 
