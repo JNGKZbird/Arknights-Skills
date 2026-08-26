@@ -80,6 +80,7 @@
 | `closure/` | 可露希尔（Closure） | 罗德岛总工程师 · 离经叛道的血魔黑客 |
 | `mon3tr/` | Mon3tr | 前文明机械生命 AMa-10 · 凯尔希的同行者 |
 | `theresa/` | 特蕾西娅（Theresa） | 巴别塔的创立者、萨卡兹的魔王 |
+| `warfarin/` | 华法琳（Warfarin） | 罗德岛元老 · 血液学专科医师「血先生」 |
 
 #### Ave Mujica 联动（独立分库）
 
@@ -215,7 +216,7 @@ A：桌宠是本系列的诞生地，内置了予愿安洁莉娜的人格包；�
   Angelina, 安洁莉娜, 予愿安洁莉娜, Amiya, 阿米娅, Texas, 德克萨斯,
   Exusiai, 能天使, Lappland, 拉普兰德, Mostima, 莫斯提马, Wis'adel, 维什戴尔,
   Kroos, 克洛丝, Closure, 可露希尔, Theresa, 特蕾西娅, Mon3tr,
-  Archetto, 空弦, Viviana, 薇薇安娜, Lin, 林雨霞, Kal'tsit, 凯尔希,
+  Warfarin, 华法琳, 血先生, Archetto, 空弦, Viviana, 薇薇安娜, Lin, 林雨霞, Kal'tsit, 凯尔希,
   Ave Mujica, 母鸡卡, 联动, 无忧梦呓, Somniloquium Serenum,
   Sakiko Togawa, 丰川祥子, Mutsumi Wakaba, 若叶睦,
   Uika Misumi, 三角初华, Umiri Yahata, 八幡海铃, Nyamu Yūtenji, 祐天寺若麦,
