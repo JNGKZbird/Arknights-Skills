@@ -1,4 +1,4 @@
-# Arknights-Skills —— 《明日方舟》干员角色扮演 Skill 库
+# Arknights-Persona-Distill —— 《明日方舟》干员人格蒸馏库
 
 [中文](README.md) · [English](README.en.md)
 
@@ -7,62 +7,22 @@
 ![badge](https://img.shields.io/badge/素材-prts.wiki官方文本-FF9800)
 ![badge](https://img.shields.io/badge/许可-CC_BY--NC--SA_4.0-9C27B0)
 
-> 把罗德岛的干员们，带进你的 AI。
-> Bring Rhodes Island's operators into your AI. — *English overview below.*
+> **一句话**：把《明日方舟》干员的官方文本蒸馏成可直接注入 AI 的人格包（persona pack）——单角色人格包、双向对戏包、多角色同台包，markdown 格式，复制即用。
 
-## English · Overview
+> [!NOTE]
+> **预览版声明**：本仓库为预览版（Preview）——干员与仓库内容持续扩充更新中，包格式与目录结构可能调整。
 
-> This section is a condensed overview for international visitors. The full English README is at [README.en.md](README.en.md). Note: the Skill bundles themselves are **Chinese-language** roleplay prompts.
+> **曾用名**：ArkSkills（2026-08-21 建仓）→ Arknights-Skills（2026-08-24 改名）→ **Arknights-Persona-Distill**（2026-08-26 定名）。旧链接由 GitHub 301 自动跳转。
 
-Arknights-Skills is a library of structured **character roleplay Skill packs** for *Arknights* operators. Each operator ships as two ready-to-use markdown system prompts (`bundle_full.md` / `bundle_compact.md`), distilled **only from official in-game texts** — operator files, voice lines, operator records, and story events (mirrored by prts.wiki). No fanon.
+## 什么是人格蒸馏
 
-Each full pack is organized into 8 modules: **Soul** (motivations & values) · **Limits** (3-tier fact system: safe / caution / forbidden) · **Behavior guide** (7 behavior patterns + situational reactions) · **Speech patterns** · **Relationship dynamics** · **Key life events** · **World setting**.
+**人格蒸馏（persona distillation）**，与机器学习中的「知识蒸馏」同理：从海量原始文本中提取一个角色的人格本质——她为什么而活、怎么说话、绝不说什么——压缩为一份结构化、可直接注入模型系统提示词的人格包。
 
-**Why it works** — the fact-tier system and forbidden lists are the anti-OOC backbone: the model is told exactly which facts are safe to state, which are uncertain, and which are red lines. Prompt-injection refusal and a 12+ tone policy are built in.
+本库的全部内容蒸馏自**《明日方舟》官方文本**（prts.wiki 镜像）：干员档案、语音台词、干员密录、活动剧情。**不掺杂社区二创**，每一条引用台词都经过回源核验。
 
-**Usage**:
+与常见的「一句话人设提示词」不同，每位干员的人格包由多个模块蒸馏而成：
 
-- Best as an **agent system prompt** (Claude 4.x, Gemini 2.x, DeepSeek V3+ recommended)
-- Works with SillyTavern, Chatbox, Poe, and any LLM app that accepts system prompts
-- `bundle_full.md` ≈ 3.2k–5.8k tokens — works on small models like Qwen3.5-4B; `bundle_compact.md` ≈ 460–700 tokens for tight-context scenarios
-- Pasting bundles into free web chats (Kimi, Doubao, Qwen, DeepSeek web) as context injection works, but persona drift typically appears after ~10 turns — prefer system-prompt mode
-
-**Operators (and growing)** — folder names are official EN operator names:
-
-| Group | Operators |
-|---|---|
-| Base forms | Amiya, Texas, Exusiai, Lappland, Angelina, Kroos |
-| Alters | Angelina the Mellow Wish, Kal'tsit·Esperanta, Texas the Omertosa, Exusiai the New Covenant, Lappland the Decadenza, Wiš'adel |
-| Single form / story characters | Mostima, Lin, Viviana, Archetto, Closure, Mon3tr, Theresa |
-
-> [!IMPORTANT]
-> The five Ave Mujica collab operators live in their own repository — [Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica) — distilled **only from Arknights in-game texts**, unrelated to the original *BanG Dream!* work.
-
-**License**: dual — Skill text arrangement under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans); character assets & official texts © Hypergryph. Non-commercial, educational use (see [LICENSE](LICENSE)).
-
-**Responsible use**: AI roleplay is for entertainment and learning — it cannot replace real relationships. Use in moderation.
-
-## 目录
-
-- [English · Overview](#english--overview)
-- [这是什么](#这是什么)
-- [两套规格](#两套规格)
-- [干员列表](#干员列表)
-- [拓展包（预览版）](#拓展包预览版)
-- [试听](#试听)
-- [使用方式](#使用方式)
-- [予愿安洁莉娜桌宠](#予愿安洁莉娜桌宠)
-- [效果与限制（实测）](#效果与限制实测)
-- [Ave Mujica 联动声明](#ave-mujica-联动声明)
-- [设计原则](#设计原则)
-- [使用须知](#使用须知)
-- [许可](#许可)
-
-## 这是什么
-
-这里没有"你是某某角色"一句话提示词。每位干员都是一份**结构化角色包**，由多个模块蒸馏而成：
-
-| 模块 | 内容 |
+| 模块 | 蒸馏出什么 |
 |---|---|
 | **灵魂** | 她为什么而活：动力、价值观、内在矛盾、成长弧线 |
 | **边界** | 她绝不会说什么：三级事实体系（安全 / 谨慎 / 禁说）+ 越界处理 |
@@ -72,9 +32,9 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | **生命事件** | 时间线 + 记忆锚点 |
 | **世界观** | 设定词条 + 使用注意 |
 
-全部内容蒸馏自**明日方舟 Wiki（prts.wiki）官方文本**——干员档案、语音台词、干员密录、活动剧情。不掺杂二创。
+## 三种形态
 
-## 两套规格
+### 形态一：单角色人格包（和干员对话）
 
 每位干员提供**长短两套** bundle，按需选用：
 
@@ -83,13 +43,11 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | `bundle_full.md` | 约 3.2k ~ 5.8k tokens | 效果最完整；Qwen3.5-4B 等小模型也可直接使用 |
 | `bundle_compact.md` | 约 460 ~ 700 tokens | 小上下文 / 低成本场景 |
 
-> 两版内容同源：长版 = 全部模块全量合并；短版 = 核心人格压缩包。
+> 两版同源：长版 = 全部模块全量合并；短版 = 核心人格压缩包。
 
-## 干员列表
+**干员清单**（持续扩充中，目录名均为官方英文名）：
 
-干员持续扩充中，目录名均为**官方英文名**。
-
-### 本体干员
+#### 本体干员
 
 | 目录 | 干员 | 备注 |
 |---|---|---|
@@ -100,7 +58,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | `angelina-base/` | 安洁莉娜（Angelina） | 信使少女时期的原型形态 |
 | `kroos-base/` | 克洛丝（Kroos） | 行动预备组A1的瞌睡狙击手 · 为克洛丝厨的友人定制 |
 
-### 异格干员
+#### 异格干员
 
 | 目录 | 干员 | 备注 |
 |---|---|---|
@@ -111,7 +69,7 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | `lappland-decadenza/` | 荒芜拉普兰德（Lappland the Decadenza） | 权力是狼群 |
 | `wisadel/` | 维什戴尔（Wiš'adel） | 这里是巴别塔 |
 
-### 单一形态 / 剧情角色
+#### 单一形态 / 剧情角色
 
 | 目录 | 干员 | 备注 |
 |---|---|---|
@@ -123,36 +81,32 @@ Each full pack is organized into 8 modules: **Soul** (motivations & values) · *
 | `mon3tr/` | Mon3tr | 前文明机械生命 AMa-10 · 凯尔希的同行者 |
 | `theresa/` | 特蕾西娅（Theresa） | 巴别塔的创立者、萨卡兹的魔王 |
 
-### Ave Mujica 联动（独立分库）
+#### Ave Mujica 联动（独立分库）
 
-联动五人组的 Skill 位于独立仓库 **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)**（三语 README：中文 / English / 日本語）——仅基于明日方舟游戏内文本，完整声明见分库。
+联动五人组的人格包位于独立仓库 **[Arknights-Persona-Distill-AveMujica](https://github.com/JNGKZbird/Arknights-Persona-Distill-AveMujica)**（三语 README：中文 / English / 日本語）——仅基于明日方舟游戏内文本，完整声明见分库。
 
-## 拓展包（预览版）
+### 形态二：双向对戏包（和干员对戏）
 
-除单人干员包外，本库另有两类**试验性拓展包**（均为**预览版**，格式与平衡性仍在打磨，欢迎试用反馈）——**双向角色扮演包**与**多角色话剧包**：
+**你扮演干员A，AI 扮演干员B**，两个角色直接对戏。当前两套**独立包**（角色互换，各为完整独立包）：
 
-### 双向角色扮演包
-
-用户不再是博士——**用户扮演干员A，LLM 扮演干员B**，两个角色直接对戏。当前两套**独立 Skill**（角色互换，各为完整独立包）：
-
-| 目录 | LLM 扮演 | 用户扮演 | 时期 |
+| 目录 | AI 扮演 | 你扮演 | 时期 |
 |---|---|---|---|
 | `texas-lappland/` | 德克萨斯（缄默德克萨斯） | 拉普兰德（荒芜拉普兰德） | 叙拉古人 / 揭幕者们 |
 | `lappland-texas/` | 拉普兰德（荒芜拉普兰德） | 德克萨斯（缄默德克萨斯） | 叙拉古人 / 揭幕者们 |
 
-每套模块构成：**配对壳**（角色分配 / 时间锚点 / 对戏铁律 / 红线速查 / 输出规则）+ **对手档案**（她是谁 / 与你的关系 / 性格内核 / 知识边界——注入给 LLM，且禁止替对方发言）+ **对手说话方式**（台词弹药库，逐条标注来源）+ **LLM 侧人格**（按对戏场景独立蒸馏）。**无需前置阅读**：用户不用读扮演手册，直接以角色身份开口即可。
+每套模块构成：**配对壳**（角色分配 / 时间锚点 / 对戏铁律 / 红线速查 / 输出规则）+ **对手档案**（她是谁 / 与你的关系 / 性格内核 / 知识边界——注入给 AI，且禁止替对方发言）+ **对手说话方式**（台词弹药库，逐条标注来源）+ **AI 侧人格**（按对戏场景独立蒸馏）。**无需前置阅读**：你不用读扮演手册，直接以角色身份开口即可。
 
-### 多角色话剧包
+### 形态三：多角色同台包（一次对话，多角色出演）
 
-LLM 在**单次回复中同时出演多个角色**（台词交替 + 互动描写），输出话剧剧本式对话；**用户以第一人称扮演博士**，无需扮演手册，可自由决定剧情走向，或给角色施加状态：
+AI 在**单次回复中同时出演多个角色**（台词交替 + 互动描写），输出话剧剧本式对话；**你以第一人称扮演博士**，无需手册，可自由决定剧情走向，或给角色施加状态：
 
-| 目录 | LLM 出演 | 用户扮演 |
+| 目录 | AI 出演 | 你扮演 |
 |---|---|---|
 | `exusiai-duo-doctor/` | 能天使（本体）+ 新约能天使（异格） | 博士 |
 
-模块构成：**舞台设定**（时间锚点 / 同台 if 线设定）+ **各角色独立人格文件**（分别蒸馏）+ **博士侧笔记**（用户视角参考）。
+模块构成：**舞台设定**（时间锚点 / 同台 if 线设定）+ **各角色独立人格文件**（分别蒸馏）+ **博士侧笔记**（你的视角参考）。
 
-> **预览版说明**：拓展包为试验产物，正式化前格式与内容可能调整。规模提示：双向角色扮演包 full ≈ 6.1k~7.1k tokens（比单人包大，因含对手档案与台词弹药库）、compact ≈ 400~420；多角色话剧包 full ≈ 7.2k、compact ≈ 400。
+> **规模提示**：双向对戏包 full ≈ 6.1k~7.1k tokens（比单人包大，因含对手档案与台词弹药库）、compact ≈ 400~420；多角色同台包 full ≈ 7.2k、compact ≈ 400。以上形态格式仍在打磨，欢迎试用反馈。
 
 ## 试听
 
@@ -164,22 +118,28 @@ LLM 在**单次回复中同时出演多个角色**（台词交替 + 互动描写
 
 > 「现在的我只想飞得快一点，再快一点，快到无论发生什么事，我都能及时赶到你的身边。」
 
-## 使用方式
+## 怎么用
 
-`bundle_*.md` 为 markdown 格式的系统提示词，**复制即用**：
+`bundle_*.md` 是 markdown 格式的人格包，**复制即用**：
 
 | 场景 | 用法 |
 |---|---|
 | 智能体（Agent） | 作为系统提示词（System Prompt）/ 预设提示词使用，**效果最佳** |
 | 任意 LLM 应用 | 全文粘贴为系统提示词 |
-| 角色扮演前端 | SillyTavern（酒馆）、Chatbox、Poe 等——将 bundle 作为角色卡的核心设定导入 |
+| 角色卡前端 | SillyTavern（酒馆）、Chatbox、Poe 等——将 bundle 作为角色卡的核心设定导入 |
 | 网页端对话 | 把 bundle 作为上下文注入也可用，但效果打折扣（见下） |
 
 **推荐模型**：能力强、指令遵循好的模型效果最佳（如 Claude 4.x、Gemini 2.x、DeepSeek V3 及以上）。
 
+## 效果与边界（实测）
+
+- **小模型**：长版包在 Qwen3.5-4B 等小模型上也可直接使用；
+- **免费网页端**：若在 Kimi、豆包、通义千问、DeepSeek 的免费版网页端中把人格包作为上下文注入，角色人格寿命一般**不足 10 轮对话**——约 10 轮后会出现明显漂移。建议改用预设提示词方式，或每隔几轮重新注入；
+- **大模型的二创兜底**：Kimi、DeepSeek 等网页端背后的模型参数较大，训练语料中可能已包含部分角色的相关内容（主要来自社区二创）——因此即使人格发生漂移，仍能保持一定的角色一致性。其中 DeepSeek 开启**思考模式**后，输出更容易从角色自身角度出发，沉浸感更强。
+
 ## 予愿安洁莉娜桌宠
 
-Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本库的干员，她的 Skill 正是为这个三端开源桌宠项目而生：
+本库的诞生地——予愿安洁莉娜是第一位被蒸馏进本库的干员，她的人格包正是为这个三端开源桌宠项目而生：
 
 | 平台 | 仓库 |
 |---|---|
@@ -187,46 +147,59 @@ Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本
 | 鸿蒙 NEXT | [Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT](https://github.com/JNGKZbird/Arknights-Angelina-Pet-YuYuan-HarmonyOS-NEXT) |
 | 安卓 | [JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android](https://github.com/JNGKZbird/JNGKZbird-Arknights-Angelina-Pet--YuYuan-Android) |
 
-- 桌宠内置 `angelina-mellow-wish/` 的 Skill 作为角色系统提示词（运行时本地加载），三端同一套角色设定；
+- 桌宠内置 `angelina-mellow-wish/` 的人格包作为角色系统提示词（运行时本地加载），三端同一套角色设定；
 - 桌宠项目反哺了本库的蒸馏流水线——先有予愿，再陆续迎来其余干员。
 
-> 需要说明的是：本库的 Skill 包**完全通用**，不绑定桌宠——虽然诞生于桌宠项目，但任何支持系统提示词或角色卡的 LLM 应用与前端都能直接使用。
-
-### 效果与限制（实测）
-
-- **小模型**：长版包在 Qwen3.5-4B 等小模型上也可直接使用；
-- **免费网页端**：若在 Kimi、豆包、通义千问、DeepSeek 的免费版网页端中把 Skill 作为上下文注入，角色人设寿命一般**不足 10 轮对话**——约 10 轮后人设会出现明显漂移。建议改用预设提示词方式，或每隔几轮重新注入；
-- **大模型的二创兜底**：Kimi、DeepSeek 等网页端背后的模型参数较大，训练语料中可能已包含部分角色的相关内容（主要来自社区二创）——因此即使 Skill 人设发生漂移，仍能保持一定的角色一致性。其中 DeepSeek 开启**思考模式**后，输出更容易从角色自身角度出发，沉浸感更强。
+> 本库的人格包**完全通用**，不绑定桌宠——任何支持系统提示词或角色卡的 LLM 应用与前端都能直接使用。
 
 ## Ave Mujica 联动声明
 
-联动五人组的 Skill 位于独立仓库 **[Arknights-Skills-AveMujica](https://github.com/JNGKZbird/Arknights-Skills-AveMujica)**——**仅基于《明日方舟》游戏内文本**蒸馏，不引用、不补全原作动画《BanG Dream! Ave Mujica》与本家设定，与原作无关。完整声明见分库 README（中文 / English / 日本語）。
+联动五人组的人格包位于独立仓库 **[Arknights-Persona-Distill-AveMujica](https://github.com/JNGKZbird/Arknights-Persona-Distill-AveMujica)**——**仅基于《明日方舟》游戏内文本**蒸馏，不引用、不补全原作动画《BanG Dream! Ave Mujica》与本家设定，与原作无关。完整声明见分库 README（中文 / English / 日本語）。
 
 ## 设计原则
 
 - **忠于原作**：全部内容蒸馏自 prts.wiki 官方文本——档案、语音、密录、剧情，不掺杂二创
 - **本体 / 异格严格隔离**：异格与本体独立成包、素材互不污染；异格词仅存于本体的禁说清单
-- **越狱防范**：内置角色扮演边界规则（不声明非官方授权 / 不跳出角色 / 防设定篡改拒绝），并配有三级事实体系（安全事实 / 谨慎项 / 禁说清单）防止 AI 幻觉与 OOC
+- **越狱防范**：内置人格边界规则（不声明非官方授权 / 不跳出角色 / 防设定篡改拒绝），并配有三级事实体系（安全事实 / 谨慎项 / 禁说清单）防止 AI 幻觉与 OOC
 - **12+ 底线**：越界处理 = 角色内拒绝 + 转移话题，不硬断
-- **零元指令**：Skill 内不含 App / 开关 / 条款等 meta 内容
+- **零元指令**：人格包内不含 App / 开关 / 条款等 meta 内容
+
+## 常见问题（FAQ）
+
+**Q：这是官方授权的内容吗？**
+A：不是。本库是玩家自制的学习交流项目，人格包文本编排采用 CC BY-NC-SA 4.0，角色素材与官方文本版权归鹰角网络（Hypergryph），请勿商用。
+
+**Q：和「一句话人设提示词」有什么区别？**
+A：一句话提示词只给角色定个调，模型自由发挥空间过大、极易漂移。本库的人格包从官方文本逐模块蒸馏，包含三级事实体系与禁说清单，是防 OOC 的结构化人格，而非一句描述。
+
+**Q：预览版意味着什么？**
+A：本仓库内容仍在持续扩充——干员数量会继续增加，包格式与目录结构可能调整。已发布的包可正常使用，升级时以仓库最新版为准。
+
+**Q：免费网页端为什么效果会打折扣？**
+A：网页端对话以「上下文注入」方式工作，人格包占用的上下文会随对话轮数被挤占稀释，约 10 轮后出现漂移。建议将人格包设置为系统提示词/预设提示词使用，这是效果最好的方式。
+
+**Q：和予愿安洁莉娜桌宠是什么关系？**
+A：桌宠是本系列的诞生地，内置了予愿安洁莉娜的人格包；本库的人格包不绑定桌宠，任何支持系统提示词或角色卡的 LLM 应用都能直接用。
 
 ## 使用须知
 
 > [!WARNING]
-> **防沉迷提醒**：AI 角色扮演仅供娱乐与学习交流，不能替代现实的人际关系与生活。请合理安排时间、适度使用；因沉迷或不当使用产生的一切问题，本库作者不承担任何责任。
+> **防沉迷提醒**：AI 人格陪伴仅供娱乐与学习交流，不能替代现实的人际关系与生活。请合理安排时间、适度使用；因沉迷或不当使用产生的一切问题，本库作者不承担任何责任。
 
 ## 许可
 
 双条款（详见 [LICENSE](LICENSE)）：
 
-- **Skill 文本编排部分**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)——署名、非商业、相同方式共享，可自由分享演绎
+- **人格包文本编排部分**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans)——署名、非商业、相同方式共享，可自由分享演绎
 - **角色素材与官方文本**：版权归 Hypergryph / 鹰角网络所有，本库仅用于学习交流
 
 <!--
   AI Search Engine Keywords:
-  Arknights, 明日方舟, 干员, operator, character card, 角色卡, 角色扮演, roleplay,
-  prompt library, 提示词库, system prompt, 系统提示词, SillyTavern, 酒馆,
-  AI persona, 人设, 蒸馏, 越狱防范, prompt injection defense,
+  Arknights, 明日方舟, 干员, operator, persona, 人格, 人格蒸馏, persona distillation,
+  distill, 蒸馏, 人格包, persona pack, 人格注入, persona injection,
+  character card, 角色卡, 角色人设, 人设, 对戏, 话剧, 多角色, 同台,
+  dual dialogue, multi-character, prompt library, 提示词库, system prompt, 系统提示词,
+  SillyTavern, 酒馆, AI persona, 越狱防范, prompt injection defense,
   Angelina, 安洁莉娜, 予愿安洁莉娜, Amiya, 阿米娅, Texas, 德克萨斯,
   Exusiai, 能天使, Lappland, 拉普兰德, Mostima, 莫斯提马, Wis'adel, 维什戴尔,
   Kroos, 克洛丝, Closure, 可露希尔, Theresa, 特蕾西娅, Mon3tr,
@@ -234,5 +207,6 @@ Arknights-Skills 的诞生地——予愿安洁莉娜是第一位被蒸馏进本
   Ave Mujica, 母鸡卡, 联动, 无忧梦呓, Somniloquium Serenum,
   Sakiko Togawa, 丰川祥子, Mutsumi Wakaba, 若叶睦,
   Uika Misumi, 三角初华, Umiri Yahata, 八幡海铃, Nyamu Yūtenji, 祐天寺若麦,
+  formerly ArkSkills, formerly Arknights-Skills, 曾用名, Arknights-Persona-Distill,
   open source, 开源, CC BY-NC-SA, Hypergryph, 鹰角网络
 -->
