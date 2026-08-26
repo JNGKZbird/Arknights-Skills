@@ -10,7 +10,7 @@
 > **In one sentence**: persona packs for *Arknights* operators, distilled from official in-game texts and ready to inject into any AI — solo packs, duet packs, and multi-character stage packs, in markdown. Copy and use.
 
 > [!NOTE]
-> **Preview notice**: this repository is in preview — operators and content keep growing and updating; pack formats and directory layout may change.
+> **Preview notice**: this repository is in preview — operators and content keep growing and updating; pack formats and directory layout may change. The repository structure will evolve along the **Repository Roadmap** below.
 
 > **Former names**: ArkSkills (created 2026-08-21) → Arknights-Skills (renamed 2026-08-24) → **Arknights-Persona-Distill** (2026-08-26). Old links 301-redirect automatically.
 
@@ -108,6 +108,17 @@ Modules: **stage setting** (time anchor / same-stage "if" premise) + **one perso
 
 > **Size note**: duet packs full ≈ 6.1k–7.1k tokens (larger than solo packs — opponent profile & line arsenal included), compact ≈ 400–420; multi-character stage pack full ≈ 7.2k, compact ≈ 400. These forms are still being polished; feedback welcome.
 
+## Repository Roadmap
+
+This repository is currently a preview. The following plans will land over time (no ETA):
+
+| Plan | Note |
+|---|---|
+| Separate repository for duet packs | `texas-lappland/` and `lappland-texas/` (currently hosted here) will move out into their own repository |
+| Separate repository for multi-character stage packs | `exusiai-duo-doctor/` (currently hosted here) will move out into its own repository |
+| NPC persona packs | Persona packs for *Arknights* story NPCs, as a separate repository |
+| Endfield persona packs | Persona packs for characters of *Arknights: Endfield* (明日方舟：终末地), as a separate repository |
+
 ## Voice Samples
 
 Hear her speak (Angelina the Mellow Wish, official lines):
@@ -201,6 +212,7 @@ Dual license (see [LICENSE](LICENSE)):
   Arknights, 明日方舟, operator, persona, 人格, 人格蒸馏, persona distillation,
   distill, 蒸馏, persona pack, 人格包, persona injection, 人格注入,
   character card, 角色卡, 人设, duet, 对戏, multi-character, 话剧, 同台,
+  NPC, Endfield, 终末地, 明日方舟终末地, roadmap, 仓库规划, preview, 预览版,
   prompt library, prompt engineering, system prompt, SillyTavern, AI persona,
   Angelina, YuYuan, Amiya, Texas, Exusiai, Lappland, Mostima, Wis'adel,
   Kroos, Closure, Theresa, Mon3tr, Archetto, Viviana, Lin, Kal'tsit,

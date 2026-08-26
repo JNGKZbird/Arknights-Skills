@@ -10,7 +10,7 @@
 > **一句话**：把《明日方舟》干员的官方文本蒸馏成可直接注入 AI 的人格包（persona pack）——单角色人格包、双向对戏包、多角色同台包，markdown 格式，复制即用。
 
 > [!NOTE]
-> **预览版声明**：本仓库为预览版（Preview）——干员与仓库内容持续扩充更新中，包格式与目录结构可能调整。
+> **预览版声明**：本仓库为预览版（Preview）——干员与仓库内容持续扩充更新中，包格式与目录结构可能调整；仓库结构将按下方「仓库规划」持续演进。
 
 > **曾用名**：ArkSkills（2026-08-21 建仓）→ Arknights-Skills（2026-08-24 改名）→ **Arknights-Persona-Distill**（2026-08-26 定名）。旧链接由 GitHub 301 自动跳转。
 
@@ -108,6 +108,17 @@ AI 在**单次回复中同时出演多个角色**（台词交替 + 互动描写�
 
 > **规模提示**：双向对戏包 full ≈ 6.1k~7.1k tokens（比单人包大，因含对手档案与台词弹药库）、compact ≈ 400~420；多角色同台包 full ≈ 7.2k、compact ≈ 400。以上形态格式仍在打磨，欢迎试用反馈。
 
+## 仓库规划（Roadmap）
+
+本库目前是预览版，以下规划会在未来逐步落地（具体时间未定）：
+
+| 规划 | 说明 |
+|---|---|
+| 双向对戏包独立仓库 | 现暂存于本库的 `texas-lappland/`、`lappland-texas/` 未来将迁出，成立独立分仓库 |
+| 多角色话剧包独立仓库 | 现暂存于本库的 `exusiai-duo-doctor/` 未来将迁出，成立独立分仓库 |
+| NPC 人格包分仓库 | 针对《明日方舟》剧情 NPC 的有趣人格蒸馏包，独立分仓库 |
+| 终末地角色人格包分仓库 | 针对《明日方舟：终末地》（Arknights: Endfield）角色的人格蒸馏包，独立分仓库 |
+
 ## 试听
 
 听听她说话的样子（予愿安洁莉娜，官方原文）：
@@ -199,6 +210,7 @@ A：桌宠是本系列的诞生地，内置了予愿安洁莉娜的人格包；�
   distill, 蒸馏, 人格包, persona pack, 人格注入, persona injection,
   character card, 角色卡, 角色人设, 人设, 对戏, 话剧, 多角色, 同台,
   dual dialogue, multi-character, prompt library, 提示词库, system prompt, 系统提示词,
+  NPC, 剧情NPC, 终末地, Endfield, 明日方舟终末地, roadmap, 仓库规划, 预览版, preview,
   SillyTavern, 酒馆, AI persona, 越狱防范, prompt injection defense,
   Angelina, 安洁莉娜, 予愿安洁莉娜, Amiya, 阿米娅, Texas, 德克萨斯,
   Exusiai, 能天使, Lappland, 拉普兰德, Mostima, 莫斯提马, Wis'adel, 维什戴尔,
